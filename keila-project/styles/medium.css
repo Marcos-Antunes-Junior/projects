@@ -1,0 +1,41 @@
+@media only screen and (min-width: 35rem) {
+    #slogan1 h1{
+       
+        font-size: 2.2rem;  
+    }
+    
+    #slogan1 p{
+  
+        font-size: 1rem;
+       
+    }
+
+
+    .button
+{
+    padding: 15px;
+    font-size: .8rem;
+    
+}
+
+#subcontainer1 h2{
+    
+    margin-left: 17%;
+    font-size: 1.4rem;
+  }
+
+  #subcontainer2 img{
+    
+    margin-top: 5%;
+    
+  }
+
+  #subcontainer3 img{
+    
+    margin-top: 16%;
+  }
+
+
+
+
+}

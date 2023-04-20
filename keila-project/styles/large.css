@@ -1,0 +1,60 @@
+@media only screen and (min-width: 64rem) {
+
+    #image-logo{
+        
+        width: 45%;
+    }
+
+
+    #slogan1 h1{
+       
+        font-size: 3.3rem;  
+    }
+    
+    #slogan1 p{
+  
+        font-size: 1.5rem;
+       
+    }
+
+    
+.button
+{
+  
+   width: 20%;
+   font-size: 1rem;
+    
+}
+
+#subcontainer1 h2{
+    
+    
+    font-size: 2.6rem;
+    font-weight: 600;
+    padding : 0;
+    line-height: 1px;
+    margin: 40px;
+    margin-top: 8%;
+    margin-left: 20%;
+    
+  }
+
+
+  #subcontainer2 img{
+    width: 15%;
+    margin-top: 7%;
+    
+   
+        
+    
+  }
+
+  #subcontainer3 img{
+    width: 22%;
+    margin-top: 12%;
+        
+  }
+
+
+
+}
