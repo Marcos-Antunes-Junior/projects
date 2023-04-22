@@ -35,6 +35,42 @@
     margin-top: 16%;
   }
 
+  #subcontainer2 p{
+
+    font-size: 1rem;
+    margin-top: -10%;  
+  }
+
+  #subcontainer3 p{
+  
+    font-size: 1rem;
+    
+   
+  }
+   
+  #title1{
+    
+    font-weight: 500;
+    font-size: .8rem;
+   
+    
+    
+    
+  }
+   
+
+  #subcontainer4{
+    width: 35%;
+    
+    
+  }
+  #title2{
+    
+    font-size: 1rem;
+   
+  }
+
+
 
 
 

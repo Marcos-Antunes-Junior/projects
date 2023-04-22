@@ -89,20 +89,6 @@ header{
 
 
 
-#price{
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: .5rem;
-    font-weight: 500;
-    margin-top: 2%;
-    
-}
-
-#price strong{
-    font-weight: bold;
-}
 
 .arrow{
     font-family: 'Montserrat', sans-serif;
@@ -131,9 +117,11 @@ header{
   }
 
   #paragraph{
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 2%;
   }
+
+  
 
   #container1{
     background-color: #1D121A;
@@ -143,6 +131,8 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  
 
   #subcontainer1 h2{
     font-family: 'Raleway', sans-serif;
@@ -157,11 +147,13 @@ header{
   #subcontainer2{
     display: grid;
     grid-template-columns: 1fr;
+    
   }
 
   #subcontainer3{
     display: grid;
     grid-template-columns: 1fr;
+    
   }
 
 
@@ -176,8 +168,57 @@ header{
   #subcontainer3 img{
     width: 22%;
     margin-top: 19%;
+    margin-left: 10%;
         
   }
+
+
+
+  #subcontainer2 p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: .5rem;
+    margin-top: -10%;  
+  }
+
+  #subcontainer3 p{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: .5rem;
+    margin-left: 10%;
+   
+  }
+
+  #container2{
+    background-color: #ffffffe2;
+  }
+
+  #title1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: .6rem;
+    margin-top: 11%;
+    
+    
+    
+  }
+   
+
+  #subcontainer4{
+    width: 60%;
+    margin-left: 8%;
+    
+  }
+  #title2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    margin-top: -4%;
+  }
+
+
+
 
 
 

@@ -52,7 +52,55 @@
   #subcontainer3 img{
     width: 22%;
     margin-top: 12%;
+    margin-left: 0;
         
+  }
+
+  #subcontainer2 p{
+    margin-top: -1%;
+    font-size: 1.3rem;
+     
+  }
+
+  #subcontainer3 p{
+  
+    font-size: 1.3rem;
+    margin-left: 0;
+    
+   
+  }
+
+  #subcontainer2 div{
+    width: 70%;
+    
+  }
+  #subcontainer3 div{
+    width: 75%;
+    
+  }
+
+   
+  #title1{
+    
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 4%;
+   
+    
+    
+    
+  }
+   
+
+  #subcontainer4{
+    width: 38%;
+    
+    
+  }
+  #title2{
+    
+    font-size: 2rem;
+   
   }
 
 
