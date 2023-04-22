@@ -132,7 +132,9 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  
+  #subcontainer1{
+    margin-top: 10%;
+  }
 
   #subcontainer1 h2{
     font-family: 'Raleway', sans-serif;
@@ -147,12 +149,14 @@ header{
   #subcontainer2{
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 10%;
     
   }
 
   #subcontainer3{
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 10%;
     
   }
 
