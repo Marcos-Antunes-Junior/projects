@@ -97,7 +97,7 @@
    
 
   #subcontainer4{
-    width: 38%;
+    width: 45%;
     
     
   }
@@ -106,6 +106,185 @@
     font-size: 2rem;
    
   }
+
+  
+  .module-description{
+    font-size: 1rem;
+  }
+  
+  .module-container li{
+    font-size: 1rem;
+    margin-left: 10%;
+  
+  }
+
+  .module-container p{
+    font-size: 1rem;
+    
+  }
+  
+  .module-container .number{
+    margin-top: 10px;
+    font-size: 2.4rem;
+    
+   }
+   
+   .module-container .module-title{
+        
+    font-size: 0.8rem;
+    
+   }
+    
+   .module-container p{
+    margin-top: -1em;
+   }
+
+   #modules{
+    
+    margin: 20px;
+   
+  }
+
+  .module-container hr{
+ height: 10px;
+  }
+
+  #results{
+    
+    font-size: 2rem;
+    
+    
+  }
+
+  .circles{
+  
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+
+  #many-circles{
+   margin-left: 7%;
+  }
+
+  #remove{
+  
+    font-size: 4rem;
+    
+  
+  }
+  
+  #remove1{
+    
+    font-size: 4rem;
+    
+  }
+
+  #queloide-info{
+    line-height: 10px;
+    margin-left: 65%;
+    margin-top: -18%;
+  }
+
+  #container5-title{
+   
+    font-size: 2rem;
+    
+  }
+  
+  #arrow-appear{
+    
+    font-size: 1.8rem;
+   
+   
+  }
+
+#incluso-subcontent1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 70%;
+  height: 100%;
+  border-radius: 6%;
+  margin-left: 20%;
+}
+  #incluso-subcontent1 div{
+     margin-left: 20%;
+     margin: 0 auto;
+     margin-left: 20%;
+    
+     
+     
+ }
+
+ #incluso-subcontent1 p{
+  width: 100%;
+  font-size: .8rem;
+}
+
+  #incluso-subcontent1 img{
+    width: 30%;
+  }
+
+  #incluso-subcontent2{
+    margin-top: -2%;
+  }
+
+  #incluso-subcontent2 h2{
+    font-size: 2.7rem;
+  }
+
+  #container6 img{
+    width: 15%;
+    margin-left: 22%;
+    
+    }
+    
+    #container6 h2{
+      margin-left: -10%;
+      margin-top: 5%;
+      
+    }
+    
+   
+    
+    
+    #container6 ul{
+      margin-top: -2%;
+    }
+
+    #container7 p{
+      
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-left: 5%;
+      margin-top: 5%;
+    }
+    
+    #container7 h2{
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      font-size: 2rem;
+      margin-left: 5%;
+      margin-top: -2%;
+    }
+
+    #image-back img{
+      width: 45%;
+      margin-left: 50%;
+     }
+
+     #container7 .w3-left, .w3-right, .w3-badge {cursor:pointer;
+      font-size: 2rem;
+      margin-top: 8%;}
+
+      #container7 #button-leftRight{
+        margin-right: 30%;
+      }
+
+
+   
+
 
 
 

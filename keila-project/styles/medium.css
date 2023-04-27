@@ -70,6 +70,221 @@
    
   }
 
+  #modules{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    gap: 8px;
+  }
+
+
+  .module-description{
+    font-size: 0.7rem;
+  }
+  
+  .module-container li{
+    font-size: 0.7rem;
+    
+  
+  }
+
+  .module-container p{
+    font-size: 0.7rem;
+    
+  }
+
+  .module-container .number{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    
+   }
+   
+   .module-container .module-title{
+        
+    font-size: 0.6rem;
+    
+   }
+
+   #results{
+    
+    font-size: 1.3rem;
+    
+    
+  }
+
+  #remove{
+  
+    font-size: 1.3rem;
+    font-weight: 400;
+  
+  }
+  
+  #remove1{
+ 
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  
+  #queloide-info{
+    line-height: 4px;
+    margin-left: 65%;
+    margin-top: -15%;
+  }
+
+  .circles{
+    
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    
+    
+   
+  }
+
+  #many-circles{
+    margin-left: 7%;
+    width: 20%;
+  }
+
+  #remove{
+  
+    font-size: 1.8rem;
+    
+  
+  }
+  
+  #remove1{
+    
+    font-size: 1.8rem;
+    
+  }
+  
+  #queloide-info{
+    line-height: 5px;
+    margin-left: 65%;
+    margin-top: -18%;
+  }
+
+  #container5-title{
+   
+    font-size: 1.3rem;
+    margin-top: 20%;
+    
+    width: 50%;
+  }
+  
+  #arrow-appear{
+    
+    font-size: 1.2rem;
+    margin-top: -5%;
+    margin-left: 9%;
+   
+  }
+
+  #incluso-subcontent1{
+    
+    font-size: .8rem;
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+    margin-left: 10%;
+
+ 
+  }
+  
+  #incluso-subcontent1 img{
+    width: 35%;
+  }
+
+ 
+
+   
+  #incluso-subcontent2{
+    
+   
+    margin-left: 15%;
+
+ 
+  }
+
+    
+  #incluso-subcontent2 h2{
+    
+   
+    font-size: 2.3rem;
+
+ 
+  }
+  
+  #incluso-subcontent2 p{
+    
+   
+    font-size: 1.3rem;
+    margin-top: 12%;
+
+ 
+  }
+
+  
+#container6 h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: -7%;
+  
+}
+
+#container6 div{
+
+  margin-left: -40%;
+}
+
+#container6 ul li{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  
+}
+
+#container6 ul{
+ margin-left: -13%;
+}
+
+#container7 p{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+
+#container7 h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-top: -3%;
+}
+
+#container7 .w3-left, .w3-right, .w3-badge {cursor:pointer;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+
+#image-back img{
+  margin: 0 auto;
+  width: 50%;
+  z-index: 1;
+  border-radius: 10px;
+  border: #fff 10px solid;
+  box-shadow: 2px 2px 15px black;
+  margin-top: 4%;
+ }
+   
+
+
+
 
 
 
