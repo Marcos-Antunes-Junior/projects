@@ -205,25 +205,27 @@
   grid-template-rows: 1fr;
   width: 70%;
   height: 100%;
-  border-radius: 6%;
+  border-radius: 40px;
   margin-left: 20%;
 }
-  #incluso-subcontent1 div{
-     margin-left: 20%;
+  #incluso-subcontent1 > div{
+     margin-left: 30%;
      margin: 0 auto;
-     margin-left: 20%;
+     margin-left: 30%;
+     width: 80%;
     
      
      
  }
 
+
  #incluso-subcontent1 p{
   width: 100%;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
   #incluso-subcontent1 img{
-    width: 30%;
+    width: 25%;
   }
 
   #incluso-subcontent2{
@@ -297,8 +299,7 @@
 
 #subcontainer8-1 p{
 
-  font-size: 1.2rem;
-  line-height: 20px;
+  font-size: 1rem;
   width: 50%;
   margin-top: 0%;
 }
@@ -359,6 +360,93 @@
 
 
 }
+
+
+
+#block{
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+
+}
+
+#subcontainer10{
+ 
+  margin-top: -29%;
+}
+
+
+
+
+
+#subcontainer10-1 p{
+  font-family: 'Montserrat', sans-serif;
+  color: #C361C2;
+  font-weight: 600;
+  font-size: 1.2rem;
+ 
+  
+}
+
+#subcontainer10-1 h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.3rem;
+ 
+ 
+}
+
+#subcontainer10-1 ul span{
+  color: #C361C2;
+  font-weight: 700;
+}
+
+#subcontainer10-1 ul{
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+
+#subcontainer10-1 ul li{
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 9%;
+}
+
+#subcontainer10-2 img{
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#vezes {
+  
+  font-size: 2.9rem;
+  margin-left: 6%;
+  margin-top: 8%;
+  
+}
+
+#a-vista{
+ 
+  font-size: 1.9rem;
+  margin-left: 11%;
+  margin-top: -5%;
+}
+
+#subcontainer10-2 button{
+  width: 40%;
+  margin-left: 13%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+#subcontainer10-2{
+  margin-left: 0;
+}
+
 
 
 

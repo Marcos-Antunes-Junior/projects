@@ -176,24 +176,33 @@
   #arrow-appear{
     
     font-size: 1.2rem;
-    margin-top: -5%;
+    margin-top: -4%;
     margin-left: 9%;
    
   }
 
   #incluso-subcontent1{
     
-    font-size: .8rem;
+    font-size: .7rem;
     width: 90%;
     height: 90%;
-    padding: 30px;
+    padding: 40px;
     margin-left: 10%;
 
  
   }
+
+  #incluso-subcontent1 p{
+    font-size: 0.8rem;
+  }
+
+  #incluso-subcontent1 > div{
+    margin-left: 25%;
+    width: 80%;
+  }
   
   #incluso-subcontent1 img{
-    width: 35%;
+    width: 40%;
   }
 
  
@@ -296,9 +305,8 @@
 
 #subcontainer8-1 p{
 
-  font-size: 1rem;
-  line-height: 16px;
-  width: 80%;
+  font-size: 0.9rem;
+  width: 90%;
 }
 
 
@@ -306,7 +314,7 @@
 
 #subcontainer8-1{
 
-  margin-top: 4%;
+  margin-top: 3%;
 }
    
 #container9{
@@ -350,6 +358,91 @@
 }
 
 
+
+#block{
+  width: 290px;
+  height: 300px;
+  background: linear-gradient(90deg, rgba(165,149,237,1) 0%, rgba(51,51,51,1) 80%);
+  margin-top: 20%;
+  border-radius: 15px;
+  margin-left: 50%;
+}
+
+#subcontainer10{
+ 
+  margin-top: -30%;
+}
+
+
+
+
+
+#subcontainer10-1 p{
+  font-family: 'Montserrat', sans-serif;
+  color: #C361C2;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 7%;
+  margin-left: 15%;
+  
+}
+
+#subcontainer10-1 h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: -3%;
+ 
+}
+
+#subcontainer10-1 ul span{
+  color: #C361C2;
+  font-weight: 700;
+}
+
+#subcontainer10-1 ul li{
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-left: 3%;
+}
+
+#subcontainer10-2 img{
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+#vezes {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 6%;
+  margin-top: 2%;
+  
+}
+
+#a-vista{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: .9rem;
+  margin-left: 11%;
+  margin-top: -5%;
+}
+
+#subcontainer10-2 button{
+  width: 60%;
+  margin-left: 4%;
+  margin-top: -1%;
+}
+
+#subcontainer10-2{
+  margin-left: 6%;
+}
 
 
 
