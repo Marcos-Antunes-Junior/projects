@@ -11,9 +11,10 @@
     }
 
 
-    .button
+    div .button
 {
     padding: 15px;
+    width: 30%;
     font-size: .8rem;
     
 }

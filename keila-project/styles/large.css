@@ -18,10 +18,10 @@
     }
 
     
-.button
+div .button
 {
   
-   width: 25%;
+  padding: 20px;
    font-size: 1rem;
     
 }
@@ -298,7 +298,7 @@
 }
 
 #subcontainer8-1 p{
-
+  font-weight: 500;
   font-size: 1.4rem;
   width: 60%;
   margin-top: 0%;
@@ -437,8 +437,8 @@
 }
 
 #subcontainer10-2 button{
-  width: 40%;
-  margin-left: 13%;
+  width: 30%;
+  margin-left: 18%;
   margin-top: 2%;
   margin-bottom: 5%;
 }
