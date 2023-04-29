@@ -881,7 +881,6 @@ background-color: #fff;
   color: #fff;
   font-size: .6rem;
   margin: 10px;
-  cursor: pointer;
 
 }
 
@@ -892,11 +891,16 @@ background-color: #fff;
   display: inline-block;
   font-weight: bold;
   margin-bottom: 5px;
-  width: 100%
+  width: 100%;
+  cursor: pointer;
 }
 
 .question input:checked ~ .answer {
   display: block
+}
+
+#subcontainer12-2 button{
+  margin: 10px;
 }
 
 footer{
@@ -908,6 +912,7 @@ footer{
   color: #fff;
   font-size: .5rem;
   padding: 10px;
+  margin-top: 30px;
 }
 
 #footer-logo{
