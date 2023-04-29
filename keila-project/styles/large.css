@@ -534,6 +534,16 @@ div .button
  
 }
 
+footer{
+  
+  font-size: 1.1rem;
+  padding: 20px;
+}
+
+#footer-logo{
+  width: 40%;
+  margin: auto;
+}
 
 
 

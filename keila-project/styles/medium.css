@@ -521,6 +521,17 @@
 
 }
 
+footer{
+  
+  font-size: .9rem;
+  padding: 15px;
+}
+
+#footer-logo{
+  width: 50%;
+  margin: auto;
+}
+
 
 
 

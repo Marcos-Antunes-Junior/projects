@@ -898,5 +898,27 @@ background-color: #fff;
   display: block
 }
 
+footer{
+  background-color: #3E3954;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: .5rem;
+  padding: 10px;
+}
+
+#footer-logo{
+  width: 50%;
+  margin:auto;
+}
+
+footer p{
+  font-style: italic;
+}
+
+
+
 
 
