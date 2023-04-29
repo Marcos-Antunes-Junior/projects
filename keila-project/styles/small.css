@@ -740,8 +740,9 @@ background-color: #fff;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   margin-left: -9%;
+  line-height: 10px;
 }
 
 #subcontainer10-2 img{

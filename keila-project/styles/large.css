@@ -372,7 +372,7 @@ div .button
 
 #subcontainer10{
  
-  margin-top: -29%;
+  margin-top: -440px;
 }
 
 
@@ -413,10 +413,11 @@ div .button
   color: #fff;
   font-size: 1.2rem;
   margin-left: 9%;
+  line-height: 30px;
 }
 
 #subcontainer10-2 img{
-  width: 60%;
+  width: 55%;
   margin-top: 5%;
   margin-left: 3%;
 }
@@ -438,13 +439,13 @@ div .button
 
 #subcontainer10-2 button{
   width: 40%;
-  margin-left: 15%;
+  margin-left: 13%;
   margin-top: 2%;
   margin-bottom: 5%;
 }
 
 #subcontainer10-2{
-  margin-left: 0;
+  margin-left: -5px;
 }
 
 
