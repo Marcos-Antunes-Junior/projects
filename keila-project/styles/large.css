@@ -458,6 +458,10 @@ div .button
   margin-left: 10%;
 }
 
+#subcontainer11-1 img{
+  width: 30%;
+}
+
 #subcontainer11-1 p{
   font-family: 'Montserrat', sans-serif;
   color: #C361C2;
@@ -468,9 +472,10 @@ div .button
 #subcontainer11-1 h3{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-top: -25px;
+  width: 100%;
 
 }
 
@@ -494,6 +499,39 @@ div .button
   border: none;
   margin-top: 10%;
   grid-column: 1/3;
+}
+
+#container12{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 15%;
+}
+
+#subcontainer12-2{
+  margin-top: 0%;
+}
+
+#subcontainer12-1 h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#image-faq{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 20px;
+ 
 }
 
 
