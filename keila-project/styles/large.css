@@ -524,6 +524,7 @@ div .button
   margin-top: 100px;
 }
 
+
 #image-faq{
   width: 70%;
   margin-left: auto;
@@ -532,6 +533,10 @@ div .button
   grid-row: 1/2;
   margin-top: 20px;
  
+}
+
+#subcontainer12-2 button{
+  width: 40%;
 }
 
 footer{
