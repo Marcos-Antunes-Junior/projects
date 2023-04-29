@@ -446,6 +446,54 @@
   margin-left: 6%;
 }
 
+#subcontainer11-1 {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+#subcontainer11-1 span{
+  margin-left: 20px;
+}
+
+
+#subcontainer11-1 img{
+  width: 30%;
+}
+
+#subcontainer11-1 p{
+  font-family: 'Montserrat', sans-serif;
+  color: #C361C2;
+  font-size: 2rem;
+}
+
+#subcontainer11-1 h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+
+}
+
+#subcontainer11-2{
+  margin: 20px;
+}
+
+#subcontainer11-2 p{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+
+#container11 > hr{
+  margin-top: 8%;
+}
+
+
+
 
 
 
