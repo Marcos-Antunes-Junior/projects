@@ -332,10 +332,13 @@
         margin-top: 8%;
       }
 
+      
+
+  
+
       #image-back2 img {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
+        
+        width: 100%;
         z-index: 1;
         border-radius: 10px;
         border: #fff 10px solid;
