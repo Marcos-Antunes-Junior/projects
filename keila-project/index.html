@@ -256,7 +256,7 @@ impressionantes.</p>
       <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
   </div>
 <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-<div class="w3-content w3-display-container" style="max-width:800px">
+<div class="w3-content w3-display-container">
     <div id="image-back2">
     <div class="mySlides">
       <img  src="images/4.svg" alt="slide image">
@@ -446,12 +446,19 @@ impressionantes.</p>
       if (w > 600) {
       x[slideIndex-1].style.display = "grid";  
       x[slideIndex-1].style.gridTemplateColumns = "1fr 1fr 1fr";
+      x[slideIndex-1].style.gap = "10px";
+      x[slideIndex-1].style.marginTop = "5%";
+
       }
       else{
       x[slideIndex-1].style.display = "grid";  
       x[slideIndex-1].style.gridTemplateColumns = "1fr";
+      x[slideIndex-1].style.gap = "10px";
+     
       } 
     }
+
+    window.onresize = function(){ location.reload(); }
     </script>
     <script src="scripts/counter.js"></script>
     <script src="scripts/main.js"></script>
