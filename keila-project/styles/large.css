@@ -22,7 +22,7 @@
     }
 
     #button-with-arrow>a {
-        left: 31%;
+        left: 32%;
         height: 70px;
          width: 70px;
     }
@@ -33,15 +33,15 @@
 
       @-webkit-keyframes run {
         0% {
-            left: 30%;
-        }
-
-        50% {
             left: 31%;
         }
 
+        50% {
+            left: 32%;
+        }
+
         100% {
-            left: 30%;
+            left: 31%;
         }
     }
 
@@ -434,6 +434,7 @@
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 1fr);
+        margin-top: 18%;
       }
 
     #subcontainer10-1{
