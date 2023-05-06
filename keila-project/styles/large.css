@@ -440,13 +440,13 @@
     #subcontainer10-1{
       display: grid;
       grid-column: 2/7;
-      grid-row: 2/11;
+      grid-row: 2/12;
     }
 
     #subcontainer10-2{
       display: block;
       grid-column: 8/12;
-      grid-row: 2/11;
+      grid-row: 2/12;
 
     }
 
@@ -499,6 +499,10 @@
 
 #button-with-arrow2 a::after {
   font-size: 3.3rem;
+}
+
+#button-with-arrow2 {
+margin-top: 14%;
 }
 
 
