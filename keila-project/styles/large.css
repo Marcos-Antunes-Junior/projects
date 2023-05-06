@@ -360,7 +360,7 @@
       
       #subcontainer8-1 p {
         font-family: 'Raleway', sans-serif;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 600;
         background-color: #fff;
         width: 60%;
@@ -444,8 +444,86 @@
     }
 
     #subcontainer10-2{
-      display: none;
+      display: block;
+      grid-column: 8/12;
+      grid-row: 2/11;
+
     }
+
+    
+  #subcontainer10-1 p {
+    font-size: 1.3rem;
+    margin-left: 50px;
+  }
+  
+  #subcontainer10-1 h3 {
+    font-size: 2.4rem;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -15px;
+  }
+  
+  #subcontainer10-1 ul li {
+    font-size: 1.4rem;
+    line-height: 30px;
+  }
+
+  #vezes {
+    font-size: 1.8rem;
+  }
+
+  #vezes strong{
+   font-size: 3.5rem;
+  }
+  
+  #a-vista {
+    font-size: 1.8rem;
+  }
+
+  #subcontainer10-2 img {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  
+  
+#button-with-arrow2>a {
+  left: 78%;
+  height: 70px;
+  width: 70px;
+}
+
+#button-with-arrow2 .button {
+  width: 70%;
+}
+
+#button-with-arrow2 a::after {
+  font-size: 3.3rem;
+}
+
+
+
+
+#button-with-arrow2:hover>a {
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run2;
+  -webkit-animation-duration: 1s;
+}
+
+@-webkit-keyframes run2 {
+  0% {
+    left: 77%;
+  }
+
+  50% {
+    left: 78%;
+  }
+
+  100% {
+    left: 77%;
+  }
+}
+
 
 
     
