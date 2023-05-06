@@ -694,8 +694,6 @@ div .button {
 }
 
 #incluso-subcontent1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   background-color: #D5D2E4;
   font-family: 'Montserrat', sans-serif;
   width: 70%;
@@ -705,21 +703,33 @@ div .button {
   border-radius: 8%;
 }
 
+#incluso-subcontent1 div{
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  flex-direction: column;
+  margin-left: 5%;
 
-#incluso-subcontent1 div {
-  width: 60%;
-  margin: 0 auto;
+
+}
+
+#incluso-subcontent1 .group {
+  display: flex;
+  flex-direction: row;
+
 }
 
 
 #incluso-subcontent1 img {
-  width: 40%;
+  width: 20%;
 }
 
 #incluso-subcontent1 p {
   font-weight: 700;
   font-size: 0.6rem;
   text-align: left;
+
+
 
 }
 

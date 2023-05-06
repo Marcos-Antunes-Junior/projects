@@ -175,23 +175,25 @@
 
       #incluso-subcontent1 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         background-color: #D5D2E4;
         font-family: 'Montserrat', sans-serif;
-        width: 75%;
+        width: 60%;
         height: 75%;
         margin: auto;
         border-radius: 8%;
       }
 
       #incluso-subcontent1 img {
-        width: 40%;
+        
+        width: 32%;
       }
 
-      #incluso-subcontent1 div {
-        margin: 0 auto;
-        width: 50%;
+      #incluso-subcontent1 .group{
+        display: flex;
+        align-items: center;
       }
+
+
 
       #incluso-subcontent1 p {
         font-weight: 700;
@@ -324,7 +326,8 @@
       }
 
       #image-back2 img {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         width: 40%;
         z-index: 1;
         border-radius: 10px;
