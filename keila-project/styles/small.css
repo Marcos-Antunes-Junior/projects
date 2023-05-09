@@ -65,7 +65,7 @@ header {
   color: #fff;
   font-size: .7rem;
   font-weight: 300;
-  width: 70%;
+  width: 80%;
   margin: 0;
 }
 
@@ -720,6 +720,10 @@ div .button {
 
 }
 
+#incluso-subcontent1 #certificate-img{
+  width: 23%;
+}
+
 
 #incluso-subcontent1 img {
   width: 20%;
@@ -824,6 +828,7 @@ div .button {
   color: #fff;
   font-size: 0.7rem;
   line-height: 15px;
+  font-weight: bold;
 
 
 }
@@ -888,8 +893,7 @@ div .button {
   justify-content: right;
   margin-right: 6%;
   margin-top: -11%;
-
-
+  color: #fff;
 }
 
 #container8 {
@@ -901,6 +905,7 @@ div .button {
 #subcontainer8 {
   grid-column: 1/2;
   grid-row: 2/3;
+  
 
 }
 
@@ -911,18 +916,20 @@ div .button {
 
 #subcontainer8-1 h2 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 5px;
   font-weight: 500;
   color: #000000e1;
+  text-align: center;
 }
 
 #subcontainer8-1 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   background-color: #fff;
-  width: 90%;
+  width: 100%;
+  text-align: center;
 
 
 }
@@ -933,8 +940,8 @@ div .button {
 #subcontainer8-1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  margin-top: 20%;
-  margin-left: 5%;
+  margin-top: 15%;
+  margin: 20px;
 }
 
 #container9 {
@@ -1047,9 +1054,12 @@ div .button {
 
 }
 
-#subcontainer10-2 img {
+#subcontainer10-2 > img {
   width: 80%;
-  margin-left: 13%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  
 
 
 }
@@ -1085,6 +1095,10 @@ div .button {
 
   margin-top: 5%;
   margin-bottom: 5%;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+
 
 }
 
