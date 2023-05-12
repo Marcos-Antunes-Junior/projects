@@ -426,5 +426,31 @@ footer{
     font-size: .8rem;
 }
 
+#header-button button:hover{
+    color: #000;                 
+}
+
+#part2 button:hover{
+    color: #000;    
+    }
+
+    #container4 button:hover{
+        color: #000;    
+        }
+
+
+        form input.submitBtn:hover {
+            color: #000;    
+        }
+
+
+        @keyframes glow {
+            from {
+              text-shadow: 0 0 10px rgb(213, 244, 16);
+            }
+            to {
+              text-shadow: 0 0 20px rgba(255, 255, 0, 0.944), 0 0 10px #f2ff02;
+            }
+          }
 
 

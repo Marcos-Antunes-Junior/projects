@@ -22,7 +22,7 @@
         <img id="image-logo" src="images/lLOGOTIPO.png" alt="engehabb logo">
         <img id="image-back" src="images/headerimg.png" alt="engehabb background imagem">
         <div id="header-button">
-            <button class="button">SOLICITAR ORÇAMENTO</button>
+            <button class="button" onclick="scrolldiv()">SOLICITAR ORÇAMENTO</button>
         </div>
         <div id="slogan">
             <h1>Empresa especializada em projetos corporativos, comerciais e industriais.</h1>
@@ -43,13 +43,13 @@
     <main>
         <div id="container1">
             <div><img src="images/ESXP.svg" alt="experiência ícone">
-                <p>+<span class="count">45</span> anos de experiência</p>
+                <p>+<span data-target="45" class="count">45</span> anos de experiência</p>
             </div>
             <div id="image-bor"><img src="images/REALIZAR.svg" alt="realizar ícone">
-                <p>+<span class="count">500</span> obras realizadas</p>
+                <p>+<span data-target="500" class="count"></span> obras realizadas</p>
             </div>
             <div><img src="images/SATISFAÇÃO.svg" alt="satisfação ícone">
-                <p>+<span class="count">100</span> clientes satisfeitos</p>
+                <p>+<span data-target="100" class="count"></span> clientes satisfeitos</p>
             </div>
         </div>
         <div id="container2">
@@ -127,7 +127,7 @@
                         objetivo é superar as expectativas, com entregas acima do esperado e a nossa história comprova a
                         excelência dos resultados no mercado da construção civil.</p>
                     </div>
-                    <button class="button">SOLICITAR ORÇAMENTO</button>
+                    <button class="button" onclick="scrolldiv()">SOLICITAR ORÇAMENTO</button>
                 </div>
             </div>
         </div>
@@ -165,12 +165,15 @@
                 </div>
 
             </div>
-            <button class="button">SOLICITAR ORÇAMENTO</button>
+            <button class="button" onclick="scrolldiv()">SOLICITAR ORÇAMENTO</button>
         </div>
     </main>
 <footer>
 <p>Todos os direitos reservados. Engehabb Engenharia CNPJ: 07.296.712/0001-49</p>  
 </footer>
+<script src="scripts/button.js">
+</script>
+<script src="scripts/main.js"></script>
 </body>
 
 </html>
