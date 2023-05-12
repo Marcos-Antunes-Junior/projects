@@ -31,12 +31,12 @@
         </div>
         <form action="https://api.sheetmonkey.io/form/nXg78LuG5NX7BsWizywW81" method="post">
             <fieldset>
-                <label class="top">Nome Completo*<input type="text" name="fname" required></label>
+                <label class="top">Nome Completo*<input type="text" name="fname" id="nomecompleto" required></label>
                 <label class="top">Telefone/Whatsapp*<input type="tel" name="phone" placeholder="11 99999-9999"
                         required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="exemplo@exemplo.com"
                         required></label>
-                <input type="submit" value="ENVIAR AGORA" class="submitBtn">
+                <input type="submit" value="ENVIAR AGORA" class="submitBtn" onclick="myFunction()">
             </fieldset>
         </form>
     </header>
@@ -171,6 +171,7 @@
 <footer>
 <p>Todos os direitos reservados. Engehabb Engenharia CNPJ: 07.296.712/0001-49</p>  
 </footer>
+<script src="scripts/formulario.js"></script>
 <script src="scripts/button.js">
 </script>
 <script src="scripts/main.js"></script>
