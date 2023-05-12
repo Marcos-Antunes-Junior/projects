@@ -1,6 +1,11 @@
-@media only screen and (min-width: 64rem) {
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px)  {
 
- 
+body{
+    margin: 0;
+    padding: 0;
+}
     
     
     #header-button {
@@ -131,12 +136,13 @@
                 z-index: -1;
                 position: relative;
                 padding-bottom: 60px;
+                padding-top: 20px;
             }
 
             #container2 h2{
                 margin: 0 auto;
                 width: 70%;
-                margin-top: 20%;
+                padding-top: 230px;
                 font-size: 2rem;
                 
             }
