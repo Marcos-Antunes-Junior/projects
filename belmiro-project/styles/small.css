@@ -172,6 +172,11 @@ form input.submitBtn {
 
 }
 
+#image-bor{
+    border-left: 1px solid #7d7a83;
+    border-right: 1px solid #7d7a83;
+}
+
 #container2{
     background-color: #F6F6F6;
     margin: 15px;
