@@ -251,16 +251,18 @@ body{
 
                     #part2 p{
                         text-align: left;
-                        font-size: 1.1rem;
+                        font-size: 1.3rem;
                         width: 70%;
                         padding: 0;
+                        margin-left: 1%;
+                        margin-top: -6%;
                     }
 
                     #part2 button{
                         color: #fff;
                         background-color: #FE4F00;
                         border: none;
-                        padding: 8px;
+                        padding: 14px;
                         border-radius: 4px;
                         cursor: pointer;
                         font-weight: bold;
@@ -272,7 +274,7 @@ body{
                         margin-top: -1%;
                         margin-bottom: 4%;
                         position: relative;
-                        right: 29%;
+                        margin-left: 5%;
                         }
 
                         #companhia {
