@@ -351,22 +351,26 @@ margin-top: 5%;
     grid-template-columns: 1fr;
 }
 
+
+#companhia {
+    display: flex;
+    align-items: center;
+
+}
 #subcontainer4-1 h3{
     color: #36333C;
-    grid-column: 1/2;
-    grid-row: 1/2;
     font-size: 1rem;
     margin: 12px;
+
 }
 
 #subcontainer4-1 hr{
     background-color: #36333C;
     width: 24%;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: relative;
-    top: 30%;
-    left: 34%;
+
+
+
+
 
 }
 
@@ -386,6 +390,7 @@ grid-template-columns: 1fr;
 
 #subcontainer4-2 img{
   width: 50%;
+
 }
 
 #audivida{
