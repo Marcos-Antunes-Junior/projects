@@ -333,11 +333,15 @@
       }
   
       #image-back2 img {
-        width: 70%;
+        width: 90%;
         z-index: 1;
         border-radius: 10px;
         border: #fff 10px solid;
         box-shadow: 2px 2px 15px black;
+      }
+
+      #image-back2 {
+      margin: 0 auto;
       }
 
       #container8 {
@@ -364,6 +368,7 @@
         line-height: 5px;
         font-weight: 500;
         color: #000000e1;
+        text-align: left;
       }
       
       #subcontainer8-1 p {
@@ -372,6 +377,7 @@
         font-weight: 600;
         background-color: #fff;
         width: 60%;
+        text-align: left;
       
       
       }
@@ -622,6 +628,11 @@ margin-top: 10px;
 #social img{
 width: 3%;
 margin-top: 15px;
+}
+
+#incluso-subcontent1 #certificate-img{
+  width: 35%;
+  margin-top: -13%;
 }
 
 
