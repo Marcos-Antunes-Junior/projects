@@ -612,6 +612,16 @@ font-size: 1.1rem;
   grid-row: 1/2;
 }
 
+#footer-logo{
+width: 30%;
+margin-top: 10px;
+}
+
+#social img{
+width: 3%;
+margin-top: 15px;
+}
+
 
 
     
