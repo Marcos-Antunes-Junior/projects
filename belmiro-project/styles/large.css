@@ -308,19 +308,21 @@
                                 height: 70px;
                                 width: 80%;
                                 margin: 0 auto;
+                                padding: 20px;
                                 }
                             
                             
                             #subcontainer4-2 img{
-                              width: 60%;
+                              width: 50%;
                               margin: 0 auto;
+
 
                               
                             }
 
                             #audivida{
                                 position: relative;
-                                top: 80%;
+                                top: 48px;
                                 right: 5%;
                             }
 
@@ -328,6 +330,14 @@
                                 position: relative;
                                 bottom: 12%;
                             }
+
+                            #footer-logo{
+                                width: 18%;
+                                padding-top: 15px;
+                                }
+                                
+
+                         
 
 
                         
