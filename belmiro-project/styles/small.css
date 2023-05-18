@@ -462,6 +462,32 @@ width: 40%;
           }
 
 
+          @media (prefers-color-scheme: light) {
+            body {
+              background-color: #010101; 
+              color: #f0ece2;
+            }
+          
+            #container2{
+                position: relative;
+                z-index: 3;
+            }
+         
+          
+            img {
+              filter: brightness(0.9);
+            }
+
+            footer{
+                background-color: #7d7a83;
+            }
+
+            
+          
+          }
+
+          
+
     
           
         
