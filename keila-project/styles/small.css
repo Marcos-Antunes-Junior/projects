@@ -952,7 +952,7 @@ div .button {
   z-index: 2;
   color: #D5D2E4;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 25px 1fr 1fr 1fr 25px;
   grid-row: 1fr;
   margin-top: -7%;
   position: relative;
@@ -968,19 +968,19 @@ div .button {
 
 
 
+
 }
 
 #container9 .subcontainer9{
   display: flex;
   justify-content: space-evenly;
- 
 
-
-
-
-
-  
 }
+
+#container9 .subcontainer9 > div {
+  width: 50%;
+}
+
 
 
 
@@ -992,6 +992,8 @@ div .button {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.5rem;
   font-weight: 600;
+  margin-top: -6%;
+
 
 
 
@@ -1001,6 +1003,8 @@ div .button {
 #container9 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.5rem;
+  position: relative;
+  top: 10%;
 
 
 }
@@ -1008,7 +1012,7 @@ div .button {
 
 
 #container9 img {
-  width: 40%;
+  width: 20%;
 
 }
 
