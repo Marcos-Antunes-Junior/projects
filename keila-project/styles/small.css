@@ -971,6 +971,11 @@ div .button {
 
 }
 
+#alunas {
+  position: relative;
+  left: 2%;
+}
+
 #container9 .subcontainer9{
   display: flex;
   justify-content: space-evenly;

@@ -294,6 +294,11 @@
 
   }
 
+  #alunas {
+    position: relative;
+    left: 2%;
+  }
+
   #container9 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
