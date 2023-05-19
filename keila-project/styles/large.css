@@ -385,8 +385,9 @@
       #container9{
 
         display: grid;
-        grid-template-columns: 150px 1fr 1fr 1fr 150px;
-        padding: 20px;
+        grid-template-columns: 100px 1fr 1fr 1fr 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
 
       #container9 img {
@@ -395,16 +396,30 @@
       }
 
       #container9 .subcontainer9{
-      margin: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      }
+
+      #container .subcontainer9 div{
+         display: grid;
+         grid-template-columns: 1fr;
+      }
+
+      #alunas {
+        position: relative;
+        left: 2%;
       }
       
 
 
       #container9 p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.4rem;
+        font-size: 2rem;
         font-weight: 600;
-        margin-top: -12%;
+        margin-top: -18%;
+        margin-left: 10%;
         width: 100%;
   
       
@@ -414,8 +429,8 @@
       #container9 h3 {
         font-family: 'Montserrat', sans-serif;
         font-size: 2.1rem;
-        margin-top: 15%;
-        margin-left: -4%;
+        margin-left: 10%;
+        
       
       }
 
