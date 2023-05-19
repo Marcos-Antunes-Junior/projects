@@ -161,11 +161,56 @@
       }
 
       #container4{
-        margin-top: 5%;
+        margin-top: 13%;
+        margin-bottom: -18%;
       }
 
       #results {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
+      }
+
+      #results2{
+        font-size: 1.3rem;
+      }
+
+      #subcontainer4-4 .meusSlides p{
+
+        font-size: 2rem;
+        text-align: center;
+
+      }
+
+      .meusSlides img{
+        width: 150%;
+        border: 3px solid #fff;
+        border-radius: 10px;
+      }
+
+      #subcontainer4-4 #mudança{
+        margin-top: 20%;
+      }
+
+
+      #mudança h2{
+  
+        font-family: 'Raleway', sans-serif;
+        font-size: 2rem;
+        color: #fff;
+        text-align: center;
+        font-weight: 400;
+       
+      }
+      
+      #mudança span{
+        animation: glow 1s ease-in-out infinite;
+        font-weight: bold;
+      }
+      
+      #mudança p{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 1.3rem;
       }
       
       .circles {
@@ -177,10 +222,7 @@
         margin-left: 8%;
       }
 
-      #queloide-info {
 
-        margin-top: -20%;
-      }
 
       #remove {
         font-size: 2rem;

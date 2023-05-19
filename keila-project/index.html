@@ -170,7 +170,43 @@ impressionantes.</p>
 </div>
 </div>
 <div id="container4">
-<h2 id="results">Resultados</h2>
+<h2 id="results">RESULTADOS</h2>
+<h2 id="results2">Jato de Plasma <span>Método K.O</span></h2>
+
+<div id="subcontainer4-4">
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="meusSlides">
+          <p>Antes / Depois</p>
+          <img src="images/resultado1.jpg" alt="cliente estetica">
+
+      </div>
+
+      <div class="meusSlides">
+        <p>Antes / Depois</p>
+          <img src="images/resultado2.jpg" alt="cliente estetica">
+
+      </div>
+
+  <br>
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+
+  </div>
+  </div>
+
+<div id="mudança">
+<h2>A MUDANÇA É <span>REAL</span></h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+</div>
+
+<!--
 <div id="many-circles">
 <div class="circles"></div>
 <div class="circles"></div>
@@ -193,10 +229,7 @@ impressionantes.</p>
 <div class="circles"></div>
 <div class="circles"></div>
 </div>
-<div id="queloide-info">
-<h2 id="remove">Jato de Plasma</h2>
-<h2 id="remove1">Método K.O</h2>
-</div>
+-->
 </div>
 <div id="container5">
 <h2 id="container5-title">O que está incluso no curso?</h2>
@@ -421,8 +454,8 @@ impressionantes.</p>
 <footer>
 <img id="footer-logo" src="images/LOGOTIPO.png" alt="logo image">
 <div id="social">
-<img id="instagram" src="images/instagram.png">
-<img id="whatsapp" src="images/whatsapp.png">
+<img id="instagram" src="images/instagram.png" alt="instagram logo">
+<img id="whatsapp" src="images/whatsapp.png" alt="whatsapp logo">
 </div>
 <p>
     ©<span id="year"></span> Keila Oliveira - TODOS OS DIREITOS RESERVADOS
@@ -473,6 +506,28 @@ impressionantes.</p>
     }
 
     </script>
+    <script>
+      let newIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("meusSlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            newIndex++;
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+
+            }
+            if (newIndex > slides.length) { newIndex = 1 }
+            slides[newIndex-1].style.display = "block";
+            dots[newIndex-1].className += " active";
+            setTimeout(showSlides, 10000); // Change image every 3 seconds
+        }
+  </script>
     <script src="scripts/counter.js"></script>
     <script src="scripts/main.js"></script>
 </body>
