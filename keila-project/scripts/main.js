@@ -39,5 +39,5 @@ document.getElementById("instagram").onclick = function () {
 };
 
 document.getElementById("whatsapp").onclick = function () {
-    window.location.href = "https://api.whatsapp.com/message/ZN3ROMH3RNEDM1?autoload=1&app_absent=0";
+    window.location.href = "https://api.whatsapp.com/send?phone=554498865087";
 };
